@@ -46,7 +46,7 @@ Attachment: link
 
 6. Запушить main на внешний репозиторий.  
 `git add .`
-`git checkout main`  
+`git commit -m 'merge BagReports'`  
 `git push`
 
 7. В ветке CheckLists набросать структуру чек листа.  
