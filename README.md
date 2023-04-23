@@ -37,7 +37,7 @@ Attachment: link
 
 4. Запушить структуру багрепорта на внешний репозиторий  
 `git add .`  
-`git commit -m "BagReports"`  
+`git commit -m 'BagReports'`  
 `git push`  
 
 5. Вмержить ветку Bag Reports в Main  
