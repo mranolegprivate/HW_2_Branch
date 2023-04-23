@@ -8,7 +8,7 @@
 - Postman `git branch Postman`
 - Jmeter `git branch Jmeter`
 - CheckLists `git branch CheckLists`
-- Bag Reports `git branch Bag Reports`
+- Bag Reports `git branch BagReports`
 - SQL `git branch SQL`
 - Charles `git branch Charles`
 - Mobile testing `git branch Mobile testing`
@@ -17,7 +17,7 @@
 `git add .`  
 `git commit 'new branch'`  
 `git checkot main`  
-`git push -u origin 'Postman' 'Jmeter' 'CheckLists' 'Bag Reports' 'SQL' 'Charles' 'Mobile testing'`  
+`git push -u origin 'Postman' 'Jmeter' 'CheckLists' 'BagReports' 'SQL' 'Charles' 'MobileTesting'`  
 
 3. В ветке Bag Reports сделать текстовый документ со структурой баг репорта  
 `git checkout Bag Reports`  
