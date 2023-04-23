@@ -29,7 +29,7 @@ Severity: Medium,
 Priority: High,
 Precondition: Preparation steps,
 Environment: Devices,
-STR: Steps to restore,
+STR: Steps to reproduce,
 ER: Expected result,
 AR: Actual Result,
 Attachment: link
