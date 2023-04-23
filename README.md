@@ -8,7 +8,7 @@
 - Postman `git branch Postman`
 - Jmeter `git branch Jmeter`
 - CheckLists `git branch CheckLists`
-- Bag Reports `git branch BagReports`
+- Bug Reports `git branch BugReports`
 - SQL `git branch SQL`
 - Charles `git branch Charles`
 - Mobile testing `git branch MobileTesting`
@@ -17,11 +17,11 @@
 `git add .`  
 `git commit 'new branch'`  
 `git checkot main`  
-`git push -u origin 'Postman' 'Jmeter' 'CheckLists' 'BagReports' 'SQL' 'Charles' 'MobileTesting'`  
+`git push -u origin 'Postman' 'Jmeter' 'CheckLists' 'BugReports' 'SQL' 'Charles' 'MobileTesting'`  
 
-3. В ветке Bag Reports сделать текстовый документ со структурой баг репорта  
-`git checkout BagReports`  
-`vim BagReports.txt`  
+3. В ветке Bug Reports сделать текстовый документ со структурой баг репорта  
+`git checkout BugReports`  
+`vim BugReports.txt`  
 ```
 ID: BR-5,
 Title: What? Where? When?,
@@ -37,16 +37,16 @@ Attachment: link
 
 4. Запушить структуру багрепорта на внешний репозиторий  
 `git add .`  
-`git commit -m 'BagReports'`  
+`git commit -m 'BugReports'`  
 `git push`  
 
-5. Вмержить ветку Bag Reports в Main  
+5. Вмержить ветку Bug Reports в Main  
 `git checkout main`  
-`git merge BagReports`
+`git merge BugReports`
 
 6. Запушить main на внешний репозиторий.  
 `git add .`  
-`git commit -m 'merge BagReports'`  
+`git commit -m 'merge BugReports'`  
 `git push`  
 
 7. В ветке CheckLists набросать структуру чек листа.  
