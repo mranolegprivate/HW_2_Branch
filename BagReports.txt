@@ -1,0 +1,10 @@
+ID: BR-5,
+Title: What? Where? When?,
+Severity: Medium,
+Priority: High,
+Precondition: Preparation steps,
+Environment: Devices,
+STR: Steps to restore,
+ER: Expected result,
+AR: Actual Result,
+Attachment: link
