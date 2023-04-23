@@ -14,9 +14,13 @@
 - Mobile testing `git branch Mobile testing`
 
 2. Запушить все ветки на внешний репозиторий  
+
 `git add .`  
+
 `git commit 'new branch'`  
+
 `git checkot main`  
+
 `git push -u origin 'Postman' 'Jmeter' 'CheckLists' 'Bag Reports' 'SQL' 'Charles' 'Mobile testing'`  
 
 3. В ветке Bag Reports сделать текстовый документ со структурой баг репорта  
@@ -29,7 +33,7 @@ Severity: Medium,
 Priority: High,
 Precondition: Preparation steps,
 Environment: Devices,
-STR: Steps to restore,
+STR: Steps to reproduce,
 ER: Expected result,
 AR: Actual Result,
 Attachment: link
