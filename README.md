@@ -11,7 +11,7 @@
 - Bug Reports `git branch BugReports`
 - SQL `git branch SQL`
 - Charles `git branch Charles`
-- Mobile testing `git branch MobileTesting`
+- Mobile Testing `git branch MobileTesting`
 
 2. Запушить все ветки на внешний репозиторий  
 `git add .`  
