@@ -15,7 +15,7 @@
 
 2. Запушить все ветки на внешний репозиторий  
 `git add .`  
-`git commit 'new branch'`  
+`git commit -m 'new branch'`  
 `git checkot main`  
 `git push -u origin 'Postman' 'Jmeter' 'CheckLists' 'BugReports' 'SQL' 'Charles' 'MobileTesting'`  
 
