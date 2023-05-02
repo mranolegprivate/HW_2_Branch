@@ -61,7 +61,7 @@ Attachment: link
 
 8. Запушить структуру на внешний репозиторий  
 `git add .`  
-`git commit 'check'`  
+`git commit -m 'check'`  
 `git push`  
 
 9. На внешнем репозитории сделать Pull Request ветки CheckLists в main  
